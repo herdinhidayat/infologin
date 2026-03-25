@@ -7,7 +7,12 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('pages.about');
+    $biodata = [
+        'nama' => 'Infologin',
+        'Alamat Berau' => 'Jl. Merdeka No. 123, Berau, Kalimantan Timur',
+        'NPWP' => '12134'
+    ];
+    return view('pages.about', $biodata);
 });
 
 Route::view('/contact', 'pages.contact');
