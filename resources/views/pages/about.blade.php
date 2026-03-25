@@ -1,9 +1,11 @@
+<DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Contact Us</title>
 </head>
 <body>
-    <h1>Halaman About</h1>
+    <h1>Halaman Contact</h1>
+</body>
 </html>
