@@ -14,11 +14,6 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/about/{id}/detail', function ($id) {
-    return view('pages.detail', [
-        'nomor' => $id
-    ]);
-});
 
 Route::view('/contact', 'pages.contact');
- 
+Route::view('/kegiatan', 'pages.kegiatan');
