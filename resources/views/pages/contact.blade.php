@@ -1,5 +1,5 @@
 @extends('layouts.master')
 
 @section('konten')
-    <h1>Kontak Kami</h1>
+    <h1>Kontak</h1>
 @endsection
