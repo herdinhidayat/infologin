@@ -13,7 +13,8 @@
     <tr>
       <th scope="col">No</th>
       <th scope="col">Nama Kegiatan</th>
-      <th scope="col">Aksi Kegiatan</th>
+      <th scope="col">Tentang Kegiatan</th>
+      <th scope="col">Aksi</th>
     </tr>
   </thead>
   <tbody>
@@ -21,16 +22,25 @@
       <th scope="row">1</th>
       <td>Berbagi Kepanti Asuhan</td>
       <td>Selengkapnya</td>
+      <td>
+            <button type="button" class="btn btn-danger">Hapus</button>
+        <button type="button" class="btn btn-warning">Edit</button>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Berbagi Kepondok</td>
+      <th scope="row">1</th>
+      <td>Berbagi Kepanti Asuhan</td>
       <td>Selengkapnya</td>
+      <td>
+            <button type="button" class="btn btn-danger">Hapus</button>
+        <button type="button" class="btn btn-warning">Edit</button>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Pelatihan Keterampilan</td>
+      <th scope="row">1</th>
+      <td>Berbagi Kepanti Asuhan</td>
       <td>Selengkapnya</td>
+      <td>
+            <button type="button" class="btn btn-danger">Hapus</button>
+        <button type="button" class="btn btn-warning">Edit</button>
     </tr>
   </tbody>
 </table>
