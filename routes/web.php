@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KegiatanController;
 
 Route::get('/', function () {
     return view('pages.beranda');
@@ -16,4 +17,5 @@ Route::get('/about', function () {
 
 
 Route::view('/contact', 'pages.contact');
-Route::view('/kegiatan', 'pages.kegiatan');
+Route::get('/kegiatan',[KegiatanController::class, 'getKegiatan']);
+Route::get('/kegiatan/tambah',[KegiatanController::class, 'tambahKegiatan']);

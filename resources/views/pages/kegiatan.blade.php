@@ -3,7 +3,7 @@
 @section('konten')
     <h1>Kegiatan Kami</h1>
     <hr>
-    <button type="button" class="btn btn-primary mb-3">Tambah Kegiatan</button>
+    <a href="/kegiatan/tambah" type="button" class="btn btn-primary mb-3">Tambah Kegiatan</a>
     <div class="card-header">
         Daftar Kegiatan
     </div>
