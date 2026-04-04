@@ -4,6 +4,13 @@
     <h1>Kegiatan Kami</h1>
     <hr>
     <a href="/kegiatan/tambah" type="button" class="btn btn-primary mb-3">Tambah Kegiatan</a>
+    <div class="alert alert-primary" role="alert">
+        <b>Nama Kegiatan: </b> {{ $data_kegiatan['nama_kegiatan'] }}
+        <br>
+        <b>Lokasi: </b> {{ $data_kegiatan['alamat'] }}
+        <br>
+        <b>Detail Kegiatan: </b> {{ $data_kegiatan['Detail_Kegiatan'] }}  
+    </div>
     <div class="card-header">
         Daftar Kegiatan
     </div>

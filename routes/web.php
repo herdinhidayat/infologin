@@ -17,5 +17,7 @@ Route::get('/about', function () {
 
 
 Route::view('/contact', 'pages.contact');
+
+// satu controller untuk satu kegiatan  
 Route::get('/kegiatan',[KegiatanController::class, 'getKegiatan']);
 Route::get('/kegiatan/tambah',[KegiatanController::class, 'tambahKegiatan']);
