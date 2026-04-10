@@ -11,8 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // sintaks dibawah untuk membuat tabel kegiatan
         Schema::create('kegiatans', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_kegiatan');  //default id
             $table->timestamps();
         });
     }
