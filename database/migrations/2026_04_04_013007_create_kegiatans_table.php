@@ -13,7 +13,7 @@ return new class extends Migration
     {
         // sintaks dibawah untuk membuat tabel kegiatan
         Schema::create('kegiatans', function (Blueprint $table) {
-            $table->id('id_kegiatan');  //default id
+            $table->id('id_kegiatan');  //default kegiatan
             $table->timestamps();
         });
     }
