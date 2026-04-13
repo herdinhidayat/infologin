@@ -14,6 +14,10 @@ return new class extends Migration
         // sintaks dibawah untuk membuat tabel kegiatan
         Schema::create('kegiatans', function (Blueprint $table) {
             $table->id('id_kegiatan');  //default kegiatan
+            $table->string('nama_kegiatan');  //default kegiatan
+            $table->string('lokasi_kegiatan');  //default kegiatan
+            $table->string('keterangan_kegiatan');  //default kegiatan
+            $table->integer('kategori_id');  //default kegiatan
             $table->timestamps();
         });
     }
